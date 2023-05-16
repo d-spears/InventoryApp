@@ -2,10 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="5dp"
+    android:padding="5dp"
     android:background="@color/grey"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:orientation="vertical">
 
     <!-- Shop image view -->
     <ImageView
@@ -20,8 +19,9 @@
         android:id="@+id/shop_id_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
         android:layout_below="@id/shop_image_view"
-        android:gravity="start"
         android:padding="16dp"
         android:textSize="16sp" />
 
