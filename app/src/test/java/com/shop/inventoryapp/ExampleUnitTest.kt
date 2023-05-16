@@ -1,4 +1,4 @@
-package com.example.inventoryapp
+package com.shop.inventoryapp
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.example.inventoryapp
+package com.shop.inventoryapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

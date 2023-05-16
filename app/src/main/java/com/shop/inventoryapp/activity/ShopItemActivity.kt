@@ -1,4 +1,4 @@
-package com.example.inventoryapp
+package com.shop.inventoryapp.activity
 
 
 import android.os.Bundle
@@ -7,6 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
+import com.shop.inventoryapp.Product
+import com.example.inventoryapp.R
 import com.google.firebase.database.*
 
 class ShopItemActivity : AppCompatActivity() {

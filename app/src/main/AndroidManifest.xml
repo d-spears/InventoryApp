@@ -12,7 +12,7 @@
         android:theme="@style/Theme.InventoryApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.shop.inventoryapp.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,15 +21,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ProductAddActivity"
+            android:name="com.shop.inventoryapp.activity.ProductAddActivity"
             android:exported="true">
         </activity>
         <activity
-            android:name=".ShopItemActivity"
+            android:name="com.shop.inventoryapp.activity.ShopItemActivity"
             android:exported="true">
         </activity>
         <activity
-            android:name=".ShopGridActivity"
+            android:name="com.shop.inventoryapp.activity.ShopGridActivity"
             android:exported="true">
         </activity>
     </application>

@@ -1,4 +1,4 @@
-package com.example.inventoryapp
+package com.shop.inventoryapp
 
 class Product{
     var proID: String? = null

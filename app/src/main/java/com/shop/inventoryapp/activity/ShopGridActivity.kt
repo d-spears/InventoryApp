@@ -1,9 +1,12 @@
-package com.example.inventoryapp
+package com.shop.inventoryapp.activity
 
 
 import android.os.Bundle
 import android.widget.GridView
 import androidx.appcompat.app.AppCompatActivity
+import com.shop.inventoryapp.Product
+import com.example.inventoryapp.R
+import com.shop.inventoryapp.adapter.ShopGridAdapter
 import com.google.firebase.database.*
 
 class ShopGridActivity : AppCompatActivity(){

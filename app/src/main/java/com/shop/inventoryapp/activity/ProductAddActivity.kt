@@ -1,9 +1,11 @@
-package com.example.inventoryapp
+package com.shop.inventoryapp.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import com.shop.inventoryapp.Product
+import com.example.inventoryapp.R
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
